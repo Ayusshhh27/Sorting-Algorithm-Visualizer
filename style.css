@@ -1,0 +1,102 @@
+/* Body styling */
+body {
+    background-color: #101010;
+}
+
+/* Accent color variable */
+:root {
+    --accent: #4dc4ffc9;
+}
+
+/* Title styling */
+#title {
+    color: #f3f3f3;
+    margin-top: 24px;
+    text-align: center;
+    padding: 8px;
+}
+
+/* Help message styling */
+#help {
+    color: #757575;
+    margin: 8px;
+    text-align: center;
+}
+
+/* Control panel styling */
+#control-panel {
+    padding-top: 16px;
+}
+
+/* Button group size adjustment */
+.btn-group-md {
+    margin: 2px;
+}
+
+/* Container for sorting visualization */
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 420px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+/* Individual sorting elements styling */
+.flex-item {
+    background: var(--accent);
+    border: 1pt solid #101010;
+    width: 20px;
+    transition: 0.1s all ease;
+}
+
+/* Centering utility class */
+.center {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Styling for the sorting container */
+#sorting {
+    display: float-left;
+    margin-bottom: 8px;
+    transform: rotate(180deg) scaleX(-1);
+}
+
+/* Generic button styling */
+.btn-group .btn {
+    background-color: #252525;
+    border: none;
+    margin: 3px;
+    border-radius: 48px;
+    color: #ededed;
+    padding: 16px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.btn-group .btn:hover {
+    background-color: var(--accent);
+}
+
+/* Disabled button styling */
+.btn-group .btn:disabled {
+    background-color: #101010;
+}
+
+/* Styling for a specific element with class 'bar' */
+.bar {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+/* Styling for a button with class 'new' */
+.new {
+    background-color: #4CAF50;
+}
